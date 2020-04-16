@@ -10,22 +10,22 @@ class App extends React.Component {
         super(props);
         this.state = { messages: [] };
         this.client = new ApiAiClient({
-            accessToken: '280344fb165a461a8ccfef7e1bb47e65'
+            accessToken: '93a9ca33a970441b9f8ceabf8bd07ed5'
         });
         this.client.eventRequest("Welcome").then(this.onResponse, this);
         this.user = {
             id: 1,
-            name: 'John'
+            name: 'You'
         };
         this.bot = {
             id: "botty",
-            name: 'Botty McbotFace',
-            avatarUrl: "https://demos.telerik.com/kendo-ui/content/chat/InsuranceBot.png"
+            name: 'CoRelief',
+            avatarUrl: "https://www.pikpng.com/pngl/m/461-4618098_png-image-with-transparent-background-logo-hand-heart.png"
         };
         this.addNewMessage = this.addNewMessage.bind(this);
     }
 
-    аttachmentTemplate = (props) => {
+    /*аttachmentTemplate = (props) => {
         let attachment = props.item;
         if (attachment.type === "quote") {
             return (
@@ -72,7 +72,7 @@ class App extends React.Component {
                 subtitle={attachment.subtitle ? attachment.subtitle : "" }
                 actions={attachment.buttons}
                 onActionExecute={this.addNewMessage}/>;
-    }
+    }*/
 
     parseActions = (actions) => {
         if (actions !== undefined ) {

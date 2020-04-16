@@ -7,11 +7,19 @@
     "@progress/kendo-react-conversational-ui": "3.12.0",
     "@progress/kendo-react-dateinputs": "3.12.0",
     "@progress/kendo-react-intl": "3.12.0",
-    "api-ai-javascript": "^2.0.0-beta.21",
+    "api-ai-javascript": "2.0.0-beta.21",
+    "dialogflow": "4.0.3",
+    "events": "3.1.0",
+    "http": "^0.0.0",
+    "https": "^1.0.0",
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-transition-group": "4.3.0"
+    "react-native": "0.62.2",
+    "react-native-dialogflow": "3.2.2",
+    "react-native-voice": "0.3.0",
+    "react-transition-group": "4.3.0",
+    "uuid": "7.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
