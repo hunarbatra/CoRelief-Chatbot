@@ -10,12 +10,13 @@ class App extends React.Component {
         super(props);
         this.state = { messages: [] };
         this.client = new ApiAiClient({
-            accessToken: '93a9ca33a970441b9f8ceabf8bd07ed5'
+            accessToken: '7a69bc87bbde498b917b2e41080f895c'
         });
         this.client.eventRequest("Welcome").then(this.onResponse, this);
         this.user = {
             id: 1,
-            name: 'You'
+            name: 'You',
+            avatarUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQohLaMwMK2rUNHE-CpNCEDBZARY9zyMFyKZEMInACf5pqnI28H&usqp=CAU"
         };
         this.bot = {
             id: "botty",
