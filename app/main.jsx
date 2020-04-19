@@ -26,55 +26,6 @@ class App extends React.Component {
         this.addNewMessage = this.addNewMessage.bind(this);
     }
 
-    /*аttachmentTemplate = (props) => {
-        let attachment = props.item;
-        if (attachment.type === "quote") {
-            return (
-            <div className="k-card k-card-type-rich">
-                <div className="k-card-body">
-                    <div><strong>Type:</strong>
-                        <span>{attachment.coverage}</span>
-                    </div>
-                    <div>
-                        <strong>Car model:</strong>
-                        <span>{attachment.make}</span>
-                    </div>
-                    <div>
-                        <strong>Car cost:</strong>
-                        <span>{attachment.worth}</span>
-                    </div>
-                    <div>
-                        <strong>Start date:</strong>
-                        <span>{attachment.startDate}</span>
-                    </div>
-                    <hr/>
-                    <div>
-                        <strong>Total:</strong>
-                        <span>{attachment.premium}</span>
-                    </div>
-                </div>
-            </div> );
-        } else if (attachment.type === "payment_plan") {
-            return (
-                <div className="k-card k-card-type-rich">
-                    <div className="k-card-body">
-                        { attachment.rows.map(( row, index ) =>
-                            <div key={index}>{row.text}</div>
-                        )}
-                        <hr/><div><strong>Total:</strong>
-                        <span>{attachment.premium}</span></div>
-                    </div>
-                </div> );
-        } else if ( attachment.type === "calendar" ) {
-            return <Calendar onChange={(event) => {this.addNewMessage(event);}}/>;
-        }
-        return <HeroCard title={attachment.title}
-                imageUrl={attachment.images ? attachment.images[0].url : ""}
-                subtitle={attachment.subtitle ? attachment.subtitle : "" }
-                actions={attachment.buttons}
-                onActionExecute={this.addNewMessage}/>;
-    }*/
-
     parseActions = (actions) => {
         if (actions !== undefined ) {
             actions.map(action => {
