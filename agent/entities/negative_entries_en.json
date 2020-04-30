@@ -1,0 +1,87 @@
+[
+  {
+    "value": "sad",
+    "synonyms": [
+      "sad"
+    ]
+  },
+  {
+    "value": "horrible",
+    "synonyms": [
+      "horrible"
+    ]
+  },
+  {
+    "value": "low",
+    "synonyms": [
+      "low"
+    ]
+  },
+  {
+    "value": "horrible",
+    "synonyms": [
+      "horrible"
+    ]
+  },
+  {
+    "value": "failure",
+    "synonyms": [
+      "failure"
+    ]
+  },
+  {
+    "value": "terrible",
+    "synonyms": [
+      "terrible"
+    ]
+  },
+  {
+    "value": "not good",
+    "synonyms": [
+      "not good"
+    ]
+  },
+  {
+    "value": "not great",
+    "synonyms": [
+      "not great"
+    ]
+  },
+  {
+    "value": "bad",
+    "synonyms": [
+      "bad"
+    ]
+  },
+  {
+    "value": "depressing",
+    "synonyms": [
+      "depressing"
+    ]
+  },
+  {
+    "value": "demotivating",
+    "synonyms": [
+      "demotivating"
+    ]
+  },
+  {
+    "value": "lonely",
+    "synonyms": [
+      "lonely"
+    ]
+  },
+  {
+    "value": "ok-ok",
+    "synonyms": [
+      "ok-ok",
+      "ok ok"
+    ]
+  },
+  {
+    "value": "fine",
+    "synonyms": [
+      "fine"
+    ]
+  }
+]

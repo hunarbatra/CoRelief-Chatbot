@@ -1,0 +1,36 @@
+{
+  "id": "f6751ce4-9438-469e-b680-690223e57240",
+  "parentId": "7288fdc8-bf20-4c58-af50-b12e0e6c586d",
+  "rootParentId": "3ed367e5-d5d2-4a50-b6ca-57eb5eb159d3",
+  "name": "day_spend - no - yes - no",
+  "auto": true,
+  "contexts": [
+    "day_spend-no-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "day_spend.day_spend-no.day_spend-no-yes.day_spend-no-yes-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Oh okay. You should definitely try it out and get creative with the #safehandschallenge. What else can I help you with?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

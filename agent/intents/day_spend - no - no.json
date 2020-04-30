@@ -1,0 +1,42 @@
+{
+  "id": "f97953bd-9621-4e92-ad29-e5ea1a12dfa6",
+  "parentId": "3c233fd4-df2a-4a40-b814-ff5d6cbbd207",
+  "rootParentId": "3ed367e5-d5d2-4a50-b6ca-57eb5eb159d3",
+  "name": "day_spend - no - no",
+  "auto": true,
+  "contexts": [
+    "day_spend-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "day_spend.day_spend-no.day_spend-no-no",
+      "affectedContexts": [
+        {
+          "name": "day_spend-no-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Oh I see. Social Media can help you connect with your friends and family far away and also with professionals. I like to use Social Media these days. However,  you should stay away from any fake news or rumors. Have you tried the #safehands TikTok challenge?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

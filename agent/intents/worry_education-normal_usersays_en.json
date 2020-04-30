@@ -1,0 +1,340 @@
+[
+  {
+    "id": "0feee1cd-a1fd-49a1-9bf3-b61457cc76fa",
+    "data": [
+      {
+        "text": "undergraduation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3df0bf2a-7313-4fda-8f89-9d7e52e70f74",
+    "data": [
+      {
+        "text": "graduate studies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c462c826-0d7c-4d5b-9155-2ba94f8f8cc8",
+    "data": [
+      {
+        "text": "undergraduate studies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "89cea281-189f-4c2a-b086-cfc054cc4f16",
+    "data": [
+      {
+        "text": "higher education",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9c58537d-ea8a-40f1-8d5f-c81722cdd368",
+    "data": [
+      {
+        "text": "I am scared for the placement season",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ef2c4ade-3c90-42c6-b6bd-135d1e23d5fe",
+    "data": [
+      {
+        "text": "I am worried about my college placements",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b909921b-5e43-4ab4-8deb-2e8ab36642a6",
+    "data": [
+      {
+        "text": "I feel ",
+        "userDefined": false
+      },
+      {
+        "text": "scared",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " about my higher ",
+        "userDefined": false
+      },
+      {
+        "text": "education",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fd6781e0-6101-44d2-977b-7c45790098a0",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "worried",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " about my undergraduate ",
+        "userDefined": false
+      },
+      {
+        "text": "studies",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d0dc387d-8822-47a5-ae29-ce4eb60b72a5",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "worried",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " about my graduate ",
+        "userDefined": false
+      },
+      {
+        "text": "studies",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1d905ea1-581a-4f44-9297-060dfaa7f261",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "worried",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " about my higher ",
+        "userDefined": false
+      },
+      {
+        "text": "education",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "86cdb3e3-5283-4482-b607-1416603376d3",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "depressed",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " because I dont know when I will graduate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dd3e1464-5f56-4a5b-aead-cd67d8c83272",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "scared",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " about my university exams",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "be75cb41-0f8d-4024-9f8f-b813512df467",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "worried",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " about university",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cf122d13-07d9-412a-9eda-994c4dc59e7e",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "worried",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " about my exams",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fbf2e386-0b31-4b33-b192-908a904e22b0",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "worried",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " about my education",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1a794a26-e6e1-4b52-8205-d53359f6dd0d",
+    "data": [
+      {
+        "text": "I dont know when my exams will happen",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dfa1d78d-8ff8-4a90-9da9-7d8fbef62ad7",
+    "data": [
+      {
+        "text": "My graduation ceremony has been cancelled",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9077a813-2c72-4448-b0b6-7f340d311fdd",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "scared",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " about my graduation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "636ead2a-7e0c-4176-96fe-1e003f98cc10",
+    "data": [
+      {
+        "text": "When will i graduate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "id": "0ed820df-9fa8-4706-968d-42b383b9286d",
+  "parentId": "3ed367e5-d5d2-4a50-b6ca-57eb5eb159d3",
+  "rootParentId": "3ed367e5-d5d2-4a50-b6ca-57eb5eb159d3",
+  "name": "day_spend - yes",
+  "auto": true,
+  "contexts": [
+    "day_spend-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "day_spend.day_spend-yes",
+      "affectedContexts": [
+        {
+          "name": "day_spend-no-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Sure. Since there\u0027s a lot of free time, you should utilize it to the fullest by learning something new, work on some side projects, read books, spending quality time with family,  or do something that you\u0027ve always wanted to do. Do you use social media?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

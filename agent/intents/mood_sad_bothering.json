@@ -1,0 +1,39 @@
+{
+  "id": "d392c3de-b604-44b9-a367-4b0f2da2993a",
+  "name": "mood_sad_bothering",
+  "auto": true,
+  "contexts": [
+    "bothering-negative"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "day_spend",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "When it comes to having a painful feeling, the only way out is through. Go ahead and be sad, and if you can let yourself be sad, you’ll start to feel better faster. What did you do today?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

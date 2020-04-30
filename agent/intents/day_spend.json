@@ -1,0 +1,39 @@
+{
+  "id": "3ed367e5-d5d2-4a50-b6ca-57eb5eb159d3",
+  "name": "day_spend",
+  "auto": true,
+  "contexts": [
+    "day-spend"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "day_spend-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Ah I see. To increase your productivity, you should make a daily schedule for the tasks that you need to accomplish within the day. And whenever you feel low, you can come and chat with me :).  Do you want some suggestions on how to spend your day in quarantine?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

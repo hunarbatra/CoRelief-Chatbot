@@ -1,0 +1,42 @@
+{
+  "id": "3f8428de-6708-4f32-b6cb-cb6742914941",
+  "parentId": "a664bc8a-970f-4eda-9f20-58eb0cc3348a",
+  "rootParentId": "a664bc8a-970f-4eda-9f20-58eb0cc3348a",
+  "name": "worry_education - yes",
+  "auto": true,
+  "contexts": [
+    "worry_education-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "worry_education.worry_education-yes",
+      "affectedContexts": [
+        {
+          "name": "worry_education-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Okay that is great. I recently completed the Science of Well-being course by Yale University on Coursera. It was an eye-opener for me. I have also heard that Pluralsight is offering free courses. I\u0027m going to check that out soon. Which course did you take?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

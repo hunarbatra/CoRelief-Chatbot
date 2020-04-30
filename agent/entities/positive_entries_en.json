@@ -1,0 +1,32 @@
+[
+  {
+    "value": "good",
+    "synonyms": [
+      "good"
+    ]
+  },
+  {
+    "value": "amazing",
+    "synonyms": [
+      "amazing"
+    ]
+  },
+  {
+    "value": "wonderful",
+    "synonyms": [
+      "wonderful"
+    ]
+  },
+  {
+    "value": "great",
+    "synonyms": [
+      "great"
+    ]
+  },
+  {
+    "value": "very good",
+    "synonyms": [
+      "very good"
+    ]
+  }
+]

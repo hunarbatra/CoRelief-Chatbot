@@ -1,0 +1,393 @@
+[
+  {
+    "id": "1fad0dc0-ca1f-4fb7-8098-ca77374e8e3b",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "worried about getting fired",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fb5683a9-400b-4b3e-8822-429a199ff889",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "worried",
+        "alias": "negative",
+        "meta": "@negative",
+        "userDefined": false
+      },
+      {
+        "text": " about my job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "27de3807-13ec-4866-840b-00bb4c4284ca",
+    "data": [
+      {
+        "text": "How will I support my ",
+        "userDefined": false
+      },
+      {
+        "text": "family if",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " I get ",
+        "userDefined": false
+      },
+      {
+        "text": "unemployed",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4d2fd908-0025-48e4-9e4c-ef99ceaa546f",
+    "data": [
+      {
+        "text": "I dont want to suffer ",
+        "userDefined": false
+      },
+      {
+        "text": "with unemployment",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1f4c648e-801e-42d1-9d8a-2a9c97a87506",
+    "data": [
+      {
+        "text": "I want to ",
+        "userDefined": false
+      },
+      {
+        "text": "work",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "de8113dd-8de4-4644-8bcd-439cb622a11f",
+    "data": [
+      {
+        "text": "I do not want to lose my work",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "698b9360-b9ed-4e9f-ab48-05b353f7b131",
+    "data": [
+      {
+        "text": "I might lose my work",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f45f663c-b220-49f3-bd9c-6703b3ea44b2",
+    "data": [
+      {
+        "text": "What ",
+        "userDefined": false
+      },
+      {
+        "text": "will",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " happen ",
+        "userDefined": false
+      },
+      {
+        "text": "if",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " I get layed off",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7f6590f3-00dc-4a36-8fc0-df895a6683b9",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "scared",
+        "alias": "negative",
+        "meta": "@negative",
+        "userDefined": false
+      },
+      {
+        "text": " of ",
+        "userDefined": false
+      },
+      {
+        "text": "unemployment",
+        "alias": "negative",
+        "meta": "@negative",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d02ada29-bf32-426f-a1cf-561817393ccf",
+    "data": [
+      {
+        "text": "I do not want to get ",
+        "userDefined": false
+      },
+      {
+        "text": "unemployed",
+        "alias": "negative",
+        "meta": "@negative",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e49fba0c-12ca-43a7-9720-d57618df9771",
+    "data": [
+      {
+        "text": "My job ",
+        "userDefined": false
+      },
+      {
+        "text": "is",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " everything to ",
+        "userDefined": false
+      },
+      {
+        "text": "me",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "03c855bf-570e-4673-b466-ead76a6d9b9d",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "bothered about the",
+        "alias": "negative",
+        "meta": "@negative",
+        "userDefined": false
+      },
+      {
+        "text": " fact that I can get layed off ",
+        "userDefined": false
+      },
+      {
+        "text": "pretty soon",
+        "alias": "negative",
+        "meta": "@negative",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a57026f6-917f-496f-ad64-099eb2b9efeb",
+    "data": [
+      {
+        "text": "What if I get layed off",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1a286d26-c84f-42a3-83d9-0d65be327f41",
+    "data": [
+      {
+        "text": "I might lose my job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "663bca70-644a-4bec-88b0-ed80b65ca984",
+    "data": [
+      {
+        "text": "I do not want to get layed off",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "be6fd84c-3007-42a7-87cc-51484d9d7419",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "scared",
+        "alias": "negative",
+        "meta": "@negative",
+        "userDefined": false
+      },
+      {
+        "text": " of losing my job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b9fbf616-8ca7-4e05-9d8c-160042791186",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "scared",
+        "alias": "negative",
+        "meta": "@negative",
+        "userDefined": false
+      },
+      {
+        "text": " that my job offer will be rescinded",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "22847eb9-8f27-4097-8ade-d3eb2d5262bc",
+    "data": [
+      {
+        "text": "I dont want my job offer to be rescinded",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e961bfc4-9e7e-42ec-b47b-31155c524f13",
+    "data": [
+      {
+        "text": "I do not want to lose my job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fad77066-8968-4fda-982b-3be1384f2202",
+    "data": [
+      {
+        "text": "Will I lose my job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e785c9ab-d97d-4d20-a9ec-772806352498",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "scared",
+        "alias": "negative",
+        "meta": "@negative",
+        "userDefined": false
+      },
+      {
+        "text": " that I will loose my job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

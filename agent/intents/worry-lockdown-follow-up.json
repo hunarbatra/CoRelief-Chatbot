@@ -1,0 +1,82 @@
+{
+  "id": "b426daec-43da-4094-8458-03b645aeb18f",
+  "name": "worry-lockdown-follow-up",
+  "auto": true,
+  "contexts": [
+    "worry-lockdown"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "worry-jobs",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "worry-internship",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "worry-education",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "worry-future",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "worry-corona",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "bothering-negative",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "worry-lockdown-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "80c43bb7-fdc6-4ea2-8e0b-bcb1aac8909c",
+          "required": false,
+          "dataType": "@negative",
+          "name": "negative",
+          "value": "$negative",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Consider yourself lucky to have a lot of time in your hands. It\u0027s up to you, how you utlise it. Learn, explore and make the most of it. The lockdown is for the betterment of the country. I know it is hard, but together we can get through this difficult phase of time. Is there anything else that is bothering you?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

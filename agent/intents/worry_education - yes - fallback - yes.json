@@ -1,0 +1,42 @@
+{
+  "id": "90c0219f-ffdf-4d17-adef-faed4133ae01",
+  "parentId": "471f5ec1-5cbb-4e10-a1f5-0b978af6d82d",
+  "rootParentId": "a664bc8a-970f-4eda-9f20-58eb0cc3348a",
+  "name": "worry_education - yes - fallback - yes",
+  "auto": true,
+  "contexts": [
+    "worry_education-yes-fallback-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "worry_education.worry_education-yes.worry_education-yes-fallback.worry_education-yes-fallback-yes",
+      "affectedContexts": [
+        {
+          "name": "day-spend",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Ah that\u0027s amazing. Working on projects always help you get enriched with practical knowledge and that is what\u0027s the most important in the forefront of academics and jobs. What have you been upto these days?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

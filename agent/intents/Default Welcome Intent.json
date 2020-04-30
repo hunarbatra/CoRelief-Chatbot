@@ -1,0 +1,55 @@
+{
+  "id": "525a578c-1006-4eb9-9601-5b67c889aa38",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Hey there! I\u0027m CoRelief, your companion. Amidst the current catastrophe that the world is facing, I\u0027m right here to lift you up and make you feel better. How are you feeling right now?"
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Hi. Welcome to Daily Quotes. Would you like to get some daily dose of motivation with a Quote?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "image": {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn%3AANd9GcT79_r9_g6sjbG2amrPA_3UmWbFXjO_n9REYmaBGsvHLBztlZzN",
+            "accessibilityText": "Quotes"
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

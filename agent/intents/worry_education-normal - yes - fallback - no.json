@@ -1,0 +1,42 @@
+{
+  "id": "c1ea0b5a-f2d3-45c6-afaf-a8ddc59d24fa",
+  "parentId": "6a235c1f-3f54-42f9-9839-6c0227d39a7f",
+  "rootParentId": "befd61c6-2c6b-4de0-a47a-a2a98c2a36ab",
+  "name": "worry_education-normal - yes - fallback - no",
+  "auto": true,
+  "contexts": [
+    "worry_education-yes-fallback-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "worry_education.worry_education-yes.worry_education-yes-fallback.worry_education-yes-fallback-no",
+      "affectedContexts": [
+        {
+          "name": "day-spend",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Oh I see. I will highly recommend you to work on some side project as it can surely help you get enriched with practical knowledge by applying your knowledge into practice. What have you been upto these days?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

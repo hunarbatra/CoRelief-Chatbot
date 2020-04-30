@@ -1,0 +1,85 @@
+{
+  "id": "cd774861-bad1-4f87-bdaa-3f4923632d4b",
+  "name": "mood_sad",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bothering-negative",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "mood_sad-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "worry-jobs",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "worry-corona",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "worry-lockdown",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "worry-education",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "worry-future",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "worry-internship",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0eaa3f54-bda0-4b7d-9337-7d69d02c7e5c",
+          "required": false,
+          "dataType": "@negative",
+          "name": "negative",
+          "value": "$negative",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Oh, don\u0027t worry. Life is all about ups and downs. If you don\u0027t mind me asking, what is it that is bothering you?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

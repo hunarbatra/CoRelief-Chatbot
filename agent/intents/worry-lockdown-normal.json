@@ -1,0 +1,80 @@
+{
+  "id": "17ee60d2-a821-482a-8a69-2ad9145f7bec",
+  "name": "worry-lockdown-normal",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "worry-jobs",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "worry-internship",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "worry-education",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "worry-future",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "worry-corona",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "bothering-negative",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "worry-lockdown-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e4009a0c-819d-46c0-8e34-540130ae2c6a",
+          "required": false,
+          "dataType": "@negative",
+          "name": "negative",
+          "value": "$negative",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Consider yourself lucky to have a lot of time in your hands. It\u0027s up to you, how you utlise it. Learn, explore and make the most of it. The lockdown is for the betterment of the country. I know it is hard, but together we can get through this difficult phase of time. Is there anything else that is bothering you?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

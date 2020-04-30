@@ -1,0 +1,55 @@
+{
+  "id": "78225234-90ac-4775-9d85-678dc795ec0d",
+  "name": "worry_jobs_follow-up",
+  "auto": true,
+  "contexts": [
+    "worry-jobs"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "day-spend",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "bfeff450-d8f4-41e6-b1f9-c5c7739eeaa2",
+          "required": false,
+          "dataType": "@negative",
+          "name": "negative",
+          "value": "$negative",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "I totally understand your point. You should try looking out for alternatives or work on projects to enrich your knowledge. Or spend your day enlightening yourself with some online courses. What do you do every day?",
+            "You better not worry about it. Try applying to more places that are hiring as a backup because I know it that you are capable of doing anything! \nWhat have you been upto these days?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

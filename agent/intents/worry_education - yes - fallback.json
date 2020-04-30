@@ -1,0 +1,42 @@
+{
+  "id": "471f5ec1-5cbb-4e10-a1f5-0b978af6d82d",
+  "parentId": "3f8428de-6708-4f32-b6cb-cb6742914941",
+  "rootParentId": "a664bc8a-970f-4eda-9f20-58eb0cc3348a",
+  "name": "worry_education - yes - fallback",
+  "auto": false,
+  "contexts": [
+    "worry_education-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "worry_education.worry_education-yes.worry_education-yes-fallback",
+      "affectedContexts": [
+        {
+          "name": "worry_education-yes-fallback-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Oh I see. Have you been working on any projects lately?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

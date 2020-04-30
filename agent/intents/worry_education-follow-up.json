@@ -1,0 +1,52 @@
+{
+  "id": "a664bc8a-970f-4eda-9f20-58eb0cc3348a",
+  "name": "worry_education-follow-up",
+  "auto": true,
+  "contexts": [
+    "worry-education"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "worry_education-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "94589283-19b1-41a2-bda2-f2446ac1042b",
+          "required": false,
+          "dataType": "@negative",
+          "name": "negative",
+          "value": "$negative",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "If you\u0027re graduating in 2020, I can totally understand your worry. But you are not the only one, it\u0027s the entire graduating class of 2020 that is going through the same. You can make it better for yourself by utilizing your time effectively. Have you tried taking any online courses?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

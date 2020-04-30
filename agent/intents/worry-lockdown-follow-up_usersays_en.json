@@ -1,0 +1,70 @@
+[
+  {
+    "id": "9568c411-dffc-4fc9-9f78-568191442c46",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "tired",
+        "alias": "negative",
+        "meta": "@negative",
+        "userDefined": false
+      },
+      {
+        "text": " of the quarantine",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ee440c76-45e7-4afb-adaf-3b7f1ae9dacd",
+    "data": [
+      {
+        "text": "I am frustrated with the quarantine",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9c365f4d-edaa-4ea2-9d54-d8655387d8d8",
+    "data": [
+      {
+        "text": "I am frustrated of the lockdown",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3ab19e79-6fa4-491a-983e-3468c0430b10",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "tired",
+        "alias": "negative",
+        "meta": "@negative",
+        "userDefined": false
+      },
+      {
+        "text": " of the lockdown",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
