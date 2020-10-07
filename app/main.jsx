@@ -1,8 +1,6 @@
-
-import React from 'react';
-import ReactDOM from 'react-dom';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 import { Chat, HeroCard } from '@progress/kendo-react-conversational-ui';
-import { Calendar } from '@progress/kendo-react-dateinputs';
 import { ApiAiClient } from 'api-ai-javascript';
 
 class App extends React.Component {
@@ -27,7 +25,7 @@ class App extends React.Component {
     }
 
     parseActions = (actions) => {
-        if (actions !== undefined ) {
+        if (actions !== undefined) {
             actions.map(action => {
                 if (action.type === "postBack") {
                     action.type = 'reply';
@@ -38,10 +36,10 @@ class App extends React.Component {
         return [];
     }
 
-    parseText = ( event ) => {
+    parseText = (event) => {
         if (event.action !== undefined) {
             return event.action.value;
-        } else if ( event.value ) {
+        } else if (event.value) {
             return event.value;
         } else {
             return event.message.text;
@@ -50,39 +48,18 @@ class App extends React.Component {
 
     onResponse = (activity) => {
         let that = this;
-        activity.result.fulfillment.messages.forEach(function(element) {
+        activity.result.fulfillment.messages.forEach(function (element) {
             let newMessage;
             newMessage = {
                 text: element.speech,
                 author: that.bot,
                 timestamp: new Date(activity.timestamp),
-                suggestedActions: element.replies ? element.replies.map(x => { return { type: "reply", title: x, value: x };}) : []
+                suggestedActions: element.replies ? element.replies.map(x => { return { type: "reply", title: x, value: x }; }) : []
             };
             that.setState((prevState) => {
-                return { messages: [ ...prevState.messages, newMessage ] };
+                return { messages: [...prevState.messages, newMessage] };
             });
         });
-
-        if (activity.result.fulfillment.data) {
-            let newMessage;
-            newMessage = {
-                text: "",
-                author: that.bot,
-                timestamp: new Date(activity.timestamp),
-                suggestedActions: activity.result.fulfillment.data.null.suggestedActions ? this.parseActions(activity.result.fulfillment.data.null.suggestedActions) : [],
-                attachments: activity.result.fulfillment.data.null.attachments ? activity.result.fulfillment.data.null.attachments : []
-
-            };
-            that.setState((prevState) => {
-                return { messages: [ ...prevState.messages, newMessage ] };
-            });
-        }
-
-        if (activity.result.fulfillment.speech === "When do you want your insurance to start?") {
-            this.setState((prevState) => {
-                return { messages: [ ...prevState.messages, { author: this.bot, timestamp: new Date(activity.timestamp), attachments: [ { type: "calendar" } ] } ] };
-            });
-        }
     }
 
     addNewMessage = (event) => {
@@ -90,7 +67,7 @@ class App extends React.Component {
         this.client.textRequest(value.toString()).then(this.onResponse, this);
         if (!event.value) {
             this.setState((prevState) => {
-                return { messages: [ ...prevState.messages, { author: this.user, text: value, timestamp: new Date() } ] };
+                return { messages: [...prevState.messages, { author: this.user, text: value, timestamp: new Date() }] };
             });
         }
     };
@@ -111,4 +88,3 @@ ReactDOM.render(
     <App />,
     document.querySelector('my-app')
 );
-
